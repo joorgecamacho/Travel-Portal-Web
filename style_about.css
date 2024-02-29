@@ -1,0 +1,68 @@
+/* style_about.css */
+
+/* Reset styles */
+
+body, html {
+    font-family: 'Lato', sans-serif;
+    align-items:start ;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* About section styles */
+.about-section {
+    padding: 20px;
+}
+
+/* Description section styles */
+.company-info {
+    margin-bottom: 30px;
+    text-align: center; /* Center-align the text */
+}
+
+/* Meet Our Team section styles */
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center; /* Center-align the team members */
+}
+
+.team-member {
+    background-color: #6f0ff5;
+    padding: 15px;
+    border-radius: 8px;
+    color: #000000;
+}
+
+.team-member h3 {
+    margin-top: 0;
+}
+
+.team-member p {
+    margin-bottom: 0;
+}
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    color: #000000;
+}

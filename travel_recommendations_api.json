@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "name": "Australia",
+    "cities": [
+      {
+        "name": "Sydney, Australia",
+        "imageUrls": ["images/sydney.jpg"],
+        "description": "Sydney is the capital city of New South Wales and one of Australia's largest cities. It is known for its iconic Sydney Opera House, Harbour Bridge, and beautiful beaches.",
+        "category": "beach"
+      },
+      {
+        "name": "Melbourne, Australia",
+        "imageUrls": ["images/melbourne.jpg"],
+        "description": "Melbourne is the capital city of Victoria and is known for its cultural diversity, vibrant arts scene, and major sporting events such as the Australian Open.",
+        "category": "country"
+      },
+      {
+        "name": "Gold Coast, Australia",
+        "imageUrls": ["images/gold_coast.jpg"],
+        "description": "Gold Coast is a coastal city in the Australian state of Queensland, known for its long sandy beaches, surfing spots, and elaborate system of inland canals and waterways.",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "United States",
+    "cities": [
+      {
+        "name": "New York City, USA",
+        "imageUrls": ["images/nyc.jpg"],
+        "description": "New York City is one of the most populous cities in the United States and is known for its iconic landmarks such as Times Square, Central Park, and the Statue of Liberty.",
+        "category": "country"
+      },
+      {
+        "name": "Los Angeles, USA",
+        "imageUrls": ["images/la.jpg"],
+        "description": "Los Angeles is the second-most populous city in the United States and is known for its entertainment industry, including Hollywood, as well as its diverse cultural scene and sunny weather.",
+        "category": "country"
+      },
+      {
+        "name": "Miami, USA",
+        "imageUrls": ["images/miami.jpg"],
+        "description": "Miami is a coastal metropolis located in southeastern Florida. It is known for its vibrant culture, beautiful beaches, and bustling nightlife.",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Spain",
+    "cities": [
+      {
+        "name": "Madrid, Spain",
+        "imageUrls": ["images/madrid.jpg"],
+        "description": "Madrid is the capital city of Spain and is known for its rich cultural heritage, beautiful architecture, and lively nightlife.",
+        "category": "country"
+      },
+      {
+        "name": "Barcelona, Spain",
+        "imageUrls": ["images/barcelona.jpg"],
+        "description": "Barcelona is a vibrant city in northeastern Spain, known for its unique architecture, including the Sagrada Familia and Park Güell, as well as its bustling street life and beautiful beaches.",
+        "category": "temple"
+      },
+      {
+        "name": "Valencia, Spain",
+        "imageUrls": ["images/valencia.jpg"],
+        "description": "Valencia is a port city on Spain’s southeastern coast, known for its City of Arts and Sciences, a futuristic complex of museums, cinemas, and theaters.",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "France",
+    "cities": [
+      {
+        "name": "Paris, France",
+        "imageUrls": ["images/paris.jpg"],
+        "description": "Paris is the capital city of France and is known for its romantic ambiance, world-class museums such as the Louvre, and iconic landmarks such as the Eiffel Tower.",
+        "category": "temple"
+      },
+      {
+        "name": "Marseille, France",
+        "imageUrls": ["images/marseille.jpg"],
+        "description": "Marseille is a port city in southern France known for its rich history, vibrant culture, and stunning Mediterranean coastline.",
+        "category": "country"
+      },
+      {
+        "name": "Nice, France",
+        "imageUrls": ["images/nice.jpg"],
+        "description": "Nice is a city on the French Riviera and is known for its beautiful waterfront, stunning beaches, and vibrant old town.",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Italy",
+    "cities": [
+      {
+        "name": "Rome, Italy",
+        "imageUrls": ["images/rome.jpg"],
+        "description": "Rome is the capital city of Italy and is known for its ancient ruins, including the Colosseum and Roman Forum, as well as its rich history, art, and delicious cuisine.",
+        "category": "temple"
+      },
+      {
+        "name": "Venice, Italy",
+        "imageUrls": ["images/venice.jpg"],
+        "description": "Venice is a unique city in northeastern Italy known for its picturesque canals, historic architecture, and romantic gondola rides.",
+        "category": "country"
+      },
+      {
+        "name": "Sorrento, Italy",
+        "imageUrls": ["images/sorrento.jpg"],
+        "description": "Sorrento is a coastal town in southwestern Italy, known for its stunning views of the Bay of Naples, colorful buildings, and lemon groves.",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Germany",
+    "cities": [
+      {
+        "name": "Berlin, Germany",
+        "imageUrls": ["images/berlin.jpg"],
+        "description": "Berlin is the capital city of Germany and is known for its vibrant arts scene, historic sites such as the Berlin Wall and Brandenburg Gate, and diverse cultural offerings.",
+        "category": "country"
+      },
+      {
+        "name": "Munich, Germany",
+        "imageUrls": ["images/munich.jpg"],
+        "description": "Munich is the capital city of Bavaria and is known for its Oktoberfest celebration, beautiful parks, and rich history.",
+        "category": "country"
+      },
+      {
+        "name": "Hamburg, Germany",
+        "imageUrls": ["images/hamburg.jpg"],
+        "description": "Hamburg is a major port city in northern Germany, known for its maritime history, lively nightlife, and iconic harbor.",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "United Kingdom",
+    "cities": [
+      {
+        "name": "London, UK",
+        "imageUrls": ["images/london.jpg"],
+        "description": "London is the capital city of the United Kingdom and is known for its historic landmarks such as the Tower of London, Buckingham Palace, and the British Museum, as well as its vibrant cultural scene.",
+        "category": "country"
+      },
+      {
+        "name": "Edinburgh, UK",
+        "imageUrls": ["images/edinburgh.jpg"],
+        "description": "Edinburgh is the capital city of Scotland and is known for its stunning architecture, rich history, and annual festivals such as the Edinburgh Festival Fringe.",
+        "category": "country"
+      },
+      {
+        "name": "Brighton, UK",
+        "imageUrls": ["images/brighton.jpg"],
+        "description": "Brighton is a seaside resort town in East Sussex, England, known for its vibrant arts scene, quirky shops, and iconic pier.",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Argentina",
+    "cities": [
+      {
+        "name": "Buenos Aires, Argentina",
+        "imageUrls": ["images/buenos_aires.jpg"],
+        "description": "Buenos Aires is the capital city of Argentina and is known for its vibrant culture, tango music and dance, and European-style architecture.",
+        "category": "country"
+      },
+      {
+        "name": "Mendoza, Argentina",
+        "imageUrls": ["images/mendoza.jpg"],
+        "description": "Mendoza is a city in western Argentina known for its wine production, beautiful landscapes, and outdoor recreational activities such as hiking and skiing.",
+        "category": "country"
+      },
+      {
+        "name": "Mar del Plata, Argentina",
+        "imageUrls": ["images/mar_del_plata.jpg"],
+        "description": "Mar del Plata is a coastal city in southeastern Argentina, known for its beautiful beaches, vibrant nightlife, and historic architecture.",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Japan",
+    "cities": [
+      {
+        "name": "Tokyo, Japan",
+        "imageUrls": ["images/tokyo.jpg"],
+        "description": "Tokyo is the capital city of Japan and is known for its bustling metropolis, high-tech innovations, historic temples, and vibrant pop culture.",
+        "category": "temple"
+      },
+      {
+        "name": "Kyoto, Japan",
+        "imageUrls": ["images/kyoto.jpg"],
+        "description": "Kyoto is a city in central Japan known for its traditional architecture, historic temples, beautiful gardens, and traditional tea houses.",
+        "category": "temple"
+      },
+      {
+        "name": "Okinawa, Japan",
+        "imageUrls": ["images/okinawa.jpg"],
+        "description": "Okinawa is a Japanese prefecture comprising more than 150 islands in the East China Sea, known for its tropical climate, beautiful beaches, and rich cultural heritage.",
+        "category": "beach"
+      }
+    ]
+    },
+    {
+      "id": 10,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrls": ["images/rio_de_janeiro.jpg"],
+          "description": "Rio de Janeiro is a vibrant city in Brazil known for its stunning beaches, iconic landmarks such as Christ the Redeemer and Sugarloaf Mountain, and vibrant Carnival celebrations.",
+          "category": "beach"
+        },
+        {
+          "name": "São Paulo, Brazil",
+          "imageUrls": ["images/sao_paulo.jpg"],
+          "description": "São Paulo is the largest city in Brazil and is known for its diverse cultural scene, vibrant nightlife, and impressive skyline.",
+          "category": "country"
+        },
+        {
+          "name": "Salvador, Brazil",
+          "imageUrls": ["images/salvador.jpg"],
+          "description": "Salvador is a coastal city in Brazil known for its rich Afro-Brazilian culture, historic architecture, and lively music scene.",
+          "category": "beach"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mexico",
+      "cities": [
+        {
+          "name": "Mexico City, Mexico",
+          "imageUrls": ["images/mexico_city.jpg"],
+          "description": "Mexico City is the capital city of Mexico and is known for its rich history, vibrant culture, and delicious cuisine.",
+          "category": "country"
+        },
+        {
+          "name": "Cancún, Mexico",
+          "imageUrls": ["images/cancun.jpg"],
+          "description": "Cancún is a popular resort destination in Mexico known for its stunning beaches, crystal-clear waters, and vibrant nightlife.",
+          "category": "beach"
+        },
+        {
+          "name": "Oaxaca, Mexico",
+          "imageUrls": ["images/oaxaca.jpg"],
+          "description": "Oaxaca is a city in southern Mexico known for its colonial architecture, indigenous culture, and vibrant arts scene.",
+          "category": "temple"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Thailand",
+      "cities": [
+        {
+          "name": "Bangkok, Thailand",
+          "imageUrls": ["images/bangkok.jpg"],
+          "description": "Bangkok is the capital city of Thailand and is known for its bustling street life, ornate temples, and vibrant floating markets.",
+          "category": "temple"
+        },
+        {
+          "name": "Phuket, Thailand",
+          "imageUrls": ["images/phuket.jpg"],
+          "description": "Phuket is a popular island destination in Thailand known for its stunning beaches, vibrant nightlife, and diverse marine life.",
+          "category": "beach"
+        },
+        {
+          "name": "Chiang Mai, Thailand",
+          "imageUrls": ["images/chiang_mai.jpg"],
+          "description": "Chiang Mai is a city in northern Thailand known for its historic temples, lush mountains, and vibrant night markets.",
+          "category": "temple"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Greece",
+      "cities": [
+        {
+          "name": "Athens, Greece",
+          "imageUrls": ["images/athens.jpg"],
+          "description": "Athens is the capital city of Greece and is known for its ancient history, including landmarks such as the Acropolis, Parthenon, and Temple of Olympian Zeus.",
+          "category": "temple"
+        },
+        {
+          "name": "Santorini, Greece",
+          "imageUrls": ["images/santorini.jpg"],
+          "description": "Santorini is a Greek island known for its stunning sunsets, whitewashed buildings, and crystal-clear waters.",
+          "category": "beach"
+        },
+        {
+          "name": "Mykonos, Greece",
+          "imageUrls": ["images/mykonos.jpg"],
+          "description": "Mykonos is a Greek island known for its vibrant nightlife, beautiful beaches, and charming Cycladic architecture.",
+          "category": "beach"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Indonesia",
+      "cities": [
+        {
+          "name": "Bali, Indonesia",
+          "imageUrls": ["images/bali.jpg"],
+          "description": "Bali is a popular island destination in Indonesia known for its stunning beaches, lush rice terraces, and vibrant culture.",
+          "category": "beach"
+        },
+        {
+          "name": "Jakarta, Indonesia",
+          "imageUrls": ["images/jakarta.jpg"],
+          "description": "Jakarta is the capital city of Indonesia and is known for its bustling street life, vibrant markets, and diverse culinary scene.",
+          "category": "country"
+        },
+        {
+          "name": "Yogyakarta, Indonesia",
+          "imageUrls": ["images/yogyakarta.jpg"],
+          "description": "Yogyakarta is a city on the island of Java known for its rich Javanese culture, historic temples such as Borobudur and Prambanan, and traditional arts scene.",
+          "category": "temple"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Portugal",
+      "cities": [
+        {
+          "name": "Lisbon, Portugal",
+          "imageUrls": ["images/lisbon.jpg"],
+          "description": "Lisbon is the capital city of Portugal and is known for its historic neighborhoods, vibrant culture, and stunning views of the Tagus River.",
+          "category": "temple"
+        },
+        {
+          "name": "Porto, Portugal",
+          "imageUrls": ["images/porto.jpg"],
+          "description": "Porto is a coastal city in northwest Portugal known for its historic center, stunning riverfront, and production of port wine.",
+          "category": "beach"
+        },
+        {
+          "name": "Algarve, Portugal",
+          "imageUrls": ["images/algarve.jpg"],
+          "description": "The Algarve is a region in southern Portugal known for its stunning coastline, picturesque fishing villages, and beautiful beaches.",
+          "category": "beach"
+        }
+      ]
+    }
+  ]
+

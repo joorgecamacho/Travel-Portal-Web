@@ -1,0 +1,202 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+input[type="submit"],
+input[type="reset"] {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+body, html {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffc107;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffc107;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #ffca28;
+}
+
+.intro {
+    text-align: right;
+    padding: 50px 20px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #000000;
+}
+
+.contact {
+    float: right; /* Float the section to the right */
+    width: 40%; /* Set the width of the section */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #f2f2f2; /* Add a background color */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    margin-top: 20px; /* Add some top margin */
+}
+
+.contact h3 {
+    margin-top: 0; /* Remove top margin for the heading */
+}
+
+.contact label {
+    display: block; /* Make labels display as block elements */
+    margin-bottom: 5px; /* Add bottom margin for spacing */
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%; /* Make inputs and textarea full width */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 3px; /* Add rounded corners */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.contact textarea {
+    resize: vertical; /* Allow vertical resizing for textarea */
+}
+
+.contact input[type="submit"] {
+    background-color: #113add; /* Green submit button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 3px; /* Add rounded corners */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #113add; /* Darker green hover color */
+}
+/* Style for the country container */
+.country {
+    max-width: 300px; /* Limit the maximum width of the country container */
+    margin: 0 auto; /* Center the country container horizontally */
+    padding: 20px; /* Add padding around the country container */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+
+  .city {
+    background-color: #FFD1DC; /* Pastel background color */
+    border: 1px solid #FFD1DC; /* Light border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    display: inline-block; /* Display boxes inline */
+    width: calc(33.33% - 20px); /* Adjust width to make 3 boxes per row */
+    min-height: 300px; /* Set a minimum height for each box */
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for the city image */
+.city img {
+    width: 100%; /* Set image width to 100% of container */
+    height: 100%; /* Set image height to 100% of container */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    display: block; /* Remove any extra space below the image */
+    border-radius: 8px; /* Apply border radius to image */
+}
+/* Align country containers to the right on larger screens */
+@media (min-width: 768px) {
+    .country {
+      display: flex; /* Use flexbox for alignment */
+      flex-wrap: wrap; /* Allow wrapping of items */
+      justify-content: flex-start; /* Align items to the left */
+    }
+    .city {
+      margin-left: 20px; /* Add spacing between items */
+      width: calc(50% - 20px); /* Adjust width to form a 2x2 grid */
+    }
+  }
+.intro h2 {
+    font-size: 48px; /* Increase the font size */
+    font-weight: bold; /* Increase the font weight */
+    margin-bottom: 20px;
+}
+.intro p {
+    font-size: 18px;
+    font-weight: bold; /* Add font-weight property */
+}
